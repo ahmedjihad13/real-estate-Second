@@ -1,0 +1,391 @@
+
+/* All common css starts here */
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 1166px;
+    margin: 0 auto;
+}
+
+ul,ol{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+/* All common css Ends here */
+
+/* css header parts start here */
+
+#header_part{
+    background-color: #EEEDDE;
+    padding: 57px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu ul{
+    display: flex;
+    gap: 100px;
+    
+    
+}
+
+.menu ul li a{
+ color: #203239;
+ font-size: 16px;
+ font-family: "Poppins", sans-serif;
+ font-weight: 300;
+}
+.menu ul li a:hover{
+    color: rgb(242, 8, 8);
+    transition: 0.3s;
+}
+/* css header part ends here */
+
+
+/* css hero part starts here */
+#hero_section{
+    background-color: #EEEDDE;
+    padding: 80px;
+}
+
+.hero{
+    display: flex;
+}
+.hero_content h2{
+  font-size: 56px;
+  width: 777px;
+  line-height: 80px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+}
+.hero_content p{
+    font-size: 16px;
+    width: 544px;
+    line-height: 30px;
+     font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    margin-top: 15px;
+}
+.input_section{
+    display: flex;
+}
+
+.hero_content{
+    margin-top: 40px;
+    width: 100%;
+}
+
+
+.input_section button{
+   
+background-color: #ffff;
+    /* padding: 15px 20px 15px 40px; */
+    border-radius: 15px;
+    font-size: 16px;
+     font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  color: #203239;
+  border-style: none;
+  margin-left: 15px;
+  margin-top: 15px;
+  padding: 15px;
+}
+
+
+.input_section p{
+    background-color: #ffff;
+    padding: 15px 20px 15px 40px;
+    border-radius: 15px;
+    font-size: 16px;
+     font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  color: #203239;
+    
+}
+
+.input_section p a{
+    color: #203239;
+}
+
+/*  css hero part ends here */
+
+
+/* css main part starts here */
+#main_section{
+background-color: #FFFFFF;
+padding: 80px;
+}
+
+.card_main{
+    /* background-color: #f5efeff6; */
+    padding: 15px;
+    margin-top: 30px;
+    border: 2px solid#efeae6;
+   border-radius: 10px;
+}
+
+.cardone{
+    margin-top: 64px;
+}
+
+.cardtwo{
+    display: flex;
+    justify-content: space-between;
+    width: 240px;
+    align-items: center;
+}
+.cardtwo h6{
+    font-size: 16px;
+}
+
+.content h2{
+    font-size: 36px;
+    width: 533px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+}
+
+.cardthree{
+    width: 235px;
+    color: #203239;
+    font-size: 16px;
+    line-height: 30px;
+      font-family: "Poppins", sans-serif;
+  font-weight: 300;
+}
+
+.cardtwo p{
+    font-size: 16px;
+    color: #FF7527;
+}
+
+.footer_card{
+    display: flex;
+    gap: 15px;
+    margin-top: 30px;
+}
+
+.footer_card h6{
+    font-size: 16px;
+    
+}
+.card_section{
+    display: flex;
+    gap: 156px;
+}
+
+
+
+/* css main part ends here */
+
+
+/*css article section part starts here */
+#article_section{
+    background-color: #EEEDDE;
+    padding: 150px;
+}
+
+.container{
+    position: relative;
+
+}
+
+.images{
+    position: absolute;
+    width: 330px;
+    height: 455px;
+  left: 170px;
+  top: 200px;
+}
+
+.article{
+display: flex;
+
+}
+
+.article_image{
+    width: 100%;
+}
+
+.article_content{
+    width: 100%;
+}
+
+.content p{
+    font-size: 16px;
+   color: #FF7527;
+      font-family: "Poppins", sans-serif;
+  font-weight: 300;
+}
+
+.content h3{
+    font-size: 36px;
+    margin-top: 10px;
+       font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+
+.article_image img{
+    margin-top: 60px;
+    width: 330px;
+    height: 455px;
+}
+
+.article_content h3{
+    width: 507px;
+    font-size: 36px;
+    margin-top: 150px;
+     font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+
+.article_content p{
+    width: 570px;
+    font-size: 16px;
+    margin-top: 15px;
+     font-family: "Poppins", sans-serif;
+  font-weight: 300;
+}
+
+.button_section{
+    margin-top: 40px;
+    display: flex;
+    gap: 48px;
+}
+
+.button_section i{
+    margin-right: 10px;
+}
+.button_section a{
+   border: 1px solid black;
+   padding: 10px 30px;
+   border-radius: 10px;
+    font-family: "Poppins", sans-serif;
+  font-weight: 300;
+}
+.button_section a:hover{
+    background-color: #203239;
+    color: #FFFFFF;
+    transition: 0.9s;
+}
+
+.button_section button{
+    background-color: #203239;
+    color: #FFFFFF;
+    padding: 13px 41px;
+    border-radius: 10px;
+     font-family: "Poppins", sans-serif;
+  font-weight: 300;
+}
+/*article section part ends here */
+
+
+/* css action section starts here  */
+#action_section{
+    background-color: #FFFFFF;
+    padding: 68px;
+}
+
+.action_one p{
+    font-size: 16px;
+    color: #FF7527;
+    font-family: "Poppins", sans-serif;
+  font-weight: 300;
+}
+.action_one h3{
+    font-size: 36px;
+    margin-top: 15px;
+    font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+.action{
+    display: flex;
+    gap: 24px;
+    margin-top: 40px;
+}
+
+.image_one h4{
+    font-size: 24px;
+     font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  margin-top: 16px;
+}
+
+.image_one p{
+    font-size: 16px;
+    width: 340px;
+    line-height: 30px;
+    font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  margin-top: 7px;
+}
+
+.image_two h4{
+    font-size: 24px;
+    font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  margin-top: 16px;
+  
+}
+
+.image_two p{
+    font-size: 16px;
+    line-height: 30px;
+    width: 340px;
+     font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  margin-top: 7px;
+}
+
+.images_three h4{
+    font-size: 24px;
+    font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  margin-top: 16px;
+}
+
+.images_three p{
+    font-size: 16px;
+    line-height: 30px;
+    width: 340px;
+     font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  margin-top: 7px;
+}
+
+
+/* css action section ends here  */
+
+/* css footer part starts here  */
+#footerpart{
+    background-color: #203239;
+    padding: 31px;
+}
+.footer_flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer_menu ul{
+    display: flex;
+    gap: 64px;
+   
+}
+
+.footer_menu ul a{
+    color: #EEEDDE;
+    font-size: 16px;
+}
+
+
+/* css footer part ends here  */
